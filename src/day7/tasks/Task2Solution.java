@@ -29,7 +29,6 @@ public class Task2Solution {
             btn.click();
         }
     }
-
     private static void deleteButtonsAndValidate(WebDriver driver, int number) {
         List<WebElement> elements = driver.findElements( By.cssSelector( "[onclick='deleteElement()']" ) );
         int sizeBeforeDeleting = elements.size();

@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SeleniumIntro {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
-        WebDriver driver = new ChromeDriver();
+            System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
+            WebDriver driver = new ChromeDriver();
         driver.get( "https://www.seleniumeasy.com/test/input-form-demo.html" );
         driver.manage().window().maximize();
         Thread.sleep( 1000 );
@@ -43,9 +43,9 @@ public class SeleniumIntro {
         Thread.sleep( 1000 );
         driver.findElement( By.name( "comment" ) ).sendKeys( "Our vision is to revolutionize traditional boot-camp training by giving students the opportunity to try their new skills in on-going projects and start their job hunt with real experience" );
         Thread.sleep( 1000 );
-        driver.findElement( By.cssSelector( "button[type='submit']" ) ).click();
-        Thread.sleep( 3000 );
-        driver.quit();
+//        driver.findElement( By.cssSelector( "button[type='submit']" ) ).click();
+//        Thread.sleep( 3000 );
+        //driver.quit();
 
     }
 }

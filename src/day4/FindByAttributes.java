@@ -9,8 +9,8 @@ import java.util.List;
 
 public class FindByAttributes {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
-        WebDriver driver = new ChromeDriver();
+            System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
+            WebDriver driver = new ChromeDriver();
         driver.get( "https://www.seleniumeasy.com/test/input-form-demo.html" );
         // css selector can search by exact attribute
         List<WebElement> cssExactElements = driver.findElements( By.cssSelector( "[class='col-md-4']" ) );

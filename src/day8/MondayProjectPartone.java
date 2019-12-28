@@ -13,9 +13,8 @@ public class MondayProjectPartone {
 
     public static void main(String[] args) throws InterruptedException {
 
-    System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
-
-    WebDriver driver = new ChromeDriver();
+            System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
+            WebDriver driver = new ChromeDriver();
 
     driver.get( "https://www.phptravels.net/en" );
 
@@ -78,9 +77,7 @@ public class MondayProjectPartone {
             Assert.assertTrue( url.contains( "en" ) );
         }
     }
-
-
-}
+    }
 
 /*
 *   stale element exception is element was in the website but not in the website any more

@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Form</title>
-    <!--
+  <!--
         give your div some styles, like background color, width and center it in the middle of the screen
         give your form inputs some styles, like font, margins and color of text
     -->
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        body {
+        text-align: center;
+        }
+    h1 {
+        color: blue;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <!--
@@ -19,6 +29,52 @@
     * 1 checkbox with name "agreement" and with text "I agree to terms and conditions"
     * 1 submit image button that uses "submit.png"
    Put your form inside a div
--->
+   <h1 style="">Practice</h1>
+<h2 style="color: red">Practice</h2>
+<h3>Green title</h3>
+HTML
+<hr>
+<form action="/someUrl" method="GET">
+    <p>Text Box: <br> <input type="text"/></p>
+    <p>Password Input: <br> <input type="password"/></p>
+    <p>Text Area: <br> <textarea></textarea></p>
+    <p>
+        Dropdown <br>
+        <select>
+            <option>Option 1</option>
+            -->
+<h1 style="">Sign-up Form</h1>
+
+<hr>
+<form action="/someUrl" method="GET">
+    <p>User Name <br> <input type="text" name = "text"/></p>
+    <p>Password <br> <input type="password" name = "password"/></p>
+    <p>Re-enter Password <br> <input type="password"name = "repassword"/></p>
+    <p>Address <br> <textarea name="textarea"></textarea></p>
+    <p>
+    <p>
+        Sex <br>
+      <p> Male <input type="radio" name="Male"/> Female <input type="radio"name ="Female"/>
+
+    </p>
+    Plan <br>
+    <select name="select">
+        <option>Free</option>
+        -->
+        <option>Basic</option>
+        -->
+        <option>Enterprise</option>
+    </select>
+    </p>
+    <p>
+        Agreement <br>
+    <p> I agree to terms and conditions <input type="checkbox" name="checkbox">
+
+    <p>
+        <input type="image" src=submit.png width="150" height="35" name="submit" alt="Submit" />
+    </p>
+
+</form>
+
 </body>
 </html>

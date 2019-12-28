@@ -9,8 +9,8 @@ import java.util.List;
 
 public class FindByTagWithSeveralAttributes {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
-        WebDriver driver = new ChromeDriver();
+            System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
+            WebDriver driver = new ChromeDriver();
         driver.get( "https://www.seleniumeasy.com/test/input-form-demo.html" );
         List<WebElement> elements = driver.findElements( By.tagName( "input" ) );
         List<WebElement> cssElements = driver.findElements( By.cssSelector( "input[type='text'][placeholder=\"E-Mail Address\"]" ) );

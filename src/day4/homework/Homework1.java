@@ -17,8 +17,8 @@ public class Homework1 {
         // h3 + p
     // there should be at least 5 test of "h3" tag and adjacent "p" tag
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
-        WebDriver driver = new ChromeDriver();
+            System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
+            WebDriver driver = new ChromeDriver();
         driver.get( "https://www.seleniumeasy.com/test/" );
         List<WebElement> links = driver.findElements( By.cssSelector( ".board-inner a" ) );
 
@@ -44,9 +44,6 @@ public class Homework1 {
             }
 
             counter++;
-
         }
-
-
     }
 }

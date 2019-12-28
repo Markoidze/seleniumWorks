@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FindAdjecentSibling {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
-        WebDriver driver = new ChromeDriver();
+            System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
+            WebDriver driver = new ChromeDriver();
         driver.get( "https://www.seleniumeasy.com/test/input-form-demo.html" );
         WebElement firstElement = driver.findElement( By.cssSelector( ".form-group" ) );
 
@@ -17,6 +17,6 @@ public class FindAdjecentSibling {
         WebElement siblingElement = driver.findElement( By.cssSelector( ".form-group + div" ) );
 
         System.out.println(siblingElement.getAttribute( "outerHTML" ));
-        driver.quit();
+       // driver.quit();
     }
 }

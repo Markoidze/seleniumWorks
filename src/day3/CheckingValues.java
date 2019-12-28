@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class CheckingValues {
     public static void main(String[] args) {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
+        System.setProperty( "webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe" );
         WebDriver driver = new ChromeDriver();
         driver.get( "file:///D:/Project/seleniumWorking/src/day3/resources/form.html" );
 

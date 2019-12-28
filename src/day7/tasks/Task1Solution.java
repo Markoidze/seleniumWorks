@@ -13,7 +13,7 @@ public class Task1Solution {
     // given number of times, and then validate that given number of
     // "Delete" buttons is displayed
     public static void main(String[] args) {
-        System.setProperty( "webdriver.chrome.driver", "D:\\TechnoStudy\\Selenium\\ChromeDriver\\chromedriver.exe" );
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\manuchar.markoidze.PCSST\\Desktop\\MySelenium\\Chrom driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get( "http://the-internet.herokuapp.com/add_remove_elements/" );
         clickAndValidateButtons(driver, 100);
